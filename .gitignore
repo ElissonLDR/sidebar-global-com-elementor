@@ -1,0 +1,22 @@
+# WordPress plugin ignore
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node / build
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Sistema
+desktop.ini

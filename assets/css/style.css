@@ -1,0 +1,28 @@
+.sge-post-with-sidebar {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.sge-post-with-sidebar .sge-content {
+    flex: 0 0 70%;
+}
+.sge-post-with-sidebar .sge-sidebar {
+    flex: 0 0 30%;
+}
+.sge-featured-img {
+    margin-bottom: 20px;
+}
+.sge-featured-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media (max-width: 768px) {
+    .sge-post-with-sidebar {
+        flex-direction: column;
+    }
+    .sge-post-with-sidebar .sge-content,
+    .sge-post-with-sidebar .sge-sidebar {
+        flex: 100%;
+    }
+}
